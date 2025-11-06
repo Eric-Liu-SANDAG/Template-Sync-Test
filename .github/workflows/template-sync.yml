@@ -24,4 +24,6 @@ jobs:
         with:
           source_repo_path: Eric-Liu-SANDAG/Template-Test
           upstream_branch: main
-          pr_labels: template_sync
+          pr_title: "[PULL REQUEST] Upstream merge template repository"
+          pr_labels: enhancement
+          pr_commit_msg: "Automation: Merge template changes"
